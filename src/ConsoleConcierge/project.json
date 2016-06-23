@@ -1,13 +1,25 @@
 ﻿{
-  "version": "1.0.0-*",
+    "version": "1.0.0-*",
 
-  "dependencies": {
-    "NETStandard.Library": "1.5.0-rc2-24027"
-  },
+    "frameworks": {
+        "netstandard1.5": {
+            "imports": "dnxcore50",
+            "dependencies": {
+                "NETStandard.Library": "1.5.0-rc2-24027"
+            }
+        },
+        "net45": { },
+        "net40": { }
+    },
 
-  "frameworks": {
-    "netstandard1.5": {
-      "imports": "dnxcore50"
+    "packOptions": {
+        "iconUrl": "",
+        "licenseUrl": "",
+        "owners": [ "Eric S. Davis" ],
+        "releaseNotes": "",
+        "repository": { },
+        "requireLicenseAcceptance": false,
+        "summary": "",
+        "tags": [ ]
     }
-  }
 }
