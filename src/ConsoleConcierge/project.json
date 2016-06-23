@@ -13,13 +13,13 @@
     },
 
     "packOptions": {
-        "iconUrl": "",
-        "licenseUrl": "",
+        "iconUrl": "https://raw.githubusercontent.com/eric-davis/ConsoleConcierge/master/ICON.PNG",
+        "licenseUrl": "https://raw.githubusercontent.com/eric-davis/ConsoleConcierge/master/LICENSE",
         "owners": [ "Eric S. Davis" ],
-        "releaseNotes": "",
+        "releaseNotes": "Initial release",
         "repository": { },
         "requireLicenseAcceptance": false,
-        "summary": "",
-        "tags": [ ]
+        "summary": "ConsoleConcierge is a basic utility / helper library for .NET console applications.",
+        "tags": [ "console", "helper" ]
     }
 }
